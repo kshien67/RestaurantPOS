@@ -1,0 +1,23 @@
+{
+    // Press F5 in VS Code and pick one of these in the Run panel.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Restaurant POS",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Run demo (sample data)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "args": ["--demo"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
